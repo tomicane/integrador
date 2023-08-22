@@ -11,6 +11,12 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
+#cart-toggle,
+#men-toggle,
+.men-label {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;

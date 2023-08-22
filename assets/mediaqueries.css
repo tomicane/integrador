@@ -1,77 +1,6 @@
-@media (max-width: 1024px) {
-  .container-features {
-    grid-template-columns: repeat(2, 1fr);
-  }
 
-  .container-categories {
-    grid-template-columns: repeat(2, 1fr);
-  }
 
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 20rem);
-  }
-
-  .container-blogs {
-    grid-template-columns: 1fr;
-    height: auto;
-  }
-
-  .container-products {
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 1rem;
-  }
-
-  .content-card-product h3 {
-    font-size: 2rem;
-  }
-
-  .card-blog {
-    flex-direction: row;
-    gap: 1rem;
-  }
-
-  .button-group-blog {
-    position: static;
-    display: none;
-  }
-
-  .card-blog .container-img {
-    width: 40%;
-  }
-
-  .content-blog h3 {
-    font-size: 2rem;
-  }
-
-  .content-blog p {
-    font-size: 1.6rem;
-  }
-
-  .btn-read-more {
-    font-size: 1.6rem;
-  }
-
-  .contact-info ul,
-  .information ul,
-  .my-account ul {
-    display: none;
-  }
-  .active-btn {
-    background-color: var(--btn-clr);
-  }
-  .men-label {
-    display: flex;
-    cursor: pointer;
-    order: 2;
-    color: white;
-  }
-  #men-toggle:checked + .lista-nav {
-    display: flex;
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 840px) {
   .container {
     padding: 0 1rem;
   }
@@ -90,6 +19,7 @@
   .navbar {
     padding: 1rem;
   }
+  
 
   .menu {
     display: none;
@@ -145,7 +75,7 @@
     order: 2;
     color: white;
   }
-  #men-toggle:checked + .lista-nav {
+  #men-toggle:checked + .navbar  {
     display: flex;
   }
 }
